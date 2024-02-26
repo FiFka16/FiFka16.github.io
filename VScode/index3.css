@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background: url("rsphmbackground.PNG");
+    color: rgb(112, 36, 119);
+    padding: 20px;
+    text-align: center;
+}
+hr{
+    background-color: #ff0000;
+    margin:0%;
+}
+nav {
+    background-color: rgb(190, 201, 221);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    background:url("iamgroot.gif") repeat;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    transform:scale(1.05);
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    display: inline;
+    margin: 13px;
+    padding: 10px 20px;
+    background-color: #5b92ce81;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    color: #7ae1e9;
+    transform: scale(1.05)
+}
